@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "DarkKingdomWeb.dll": "sha256-ZCjpzAtQK5jOZKl9DRsL8+t0twEQNqNPwcqFcZizf9Q=",
+      "DarkKingdomWeb.dll": "sha256-cHgcFtUSEKIyHQJCKyN8nLZe7QejftqDjT01ytHTn4g=",
       "Microsoft.AspNetCore.Components.dll": "sha256-diFDa1y0NgUUaafKW8tO5152HAANoCA8EH4GlBf5fQo=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-jSEc6w1lUN8bup\/iXTVCIBk1vB+bHUZ\/WLq59QvXE1g=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-VoOExk2fEE249K3Jayw1Nymq9Bc8LlKEWiOG9\/0GiNY=",
