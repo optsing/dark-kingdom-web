@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Humans",
+        "symb": 1,
+        "Units": "Soldier; Archer; Griffin; Inquisitor",
+        "Desc": ""
+    },
+    {
+        "name": "Undeads",
+        "symb": 0,
+        "Units": "Skeleton_squad; Walking_corpse; Wraith; Lich",
+        "Desc": ""
+    },
+    {
+        "name": "Demons",
+        "symb": 2,
+        "Units": "Battle_imp; Slave; Sukkubus; Joker",
+        "Desc": "Хитрые твари"
+    },
+    {
+        "name": "Horde",
+        "symb": 3,
+        "Units": "Marauder; Shaman; Winger; Berserker",
+        "Desc": ""
+    },
+    {
+        "name": "Elves",
+        "symb": 6,
+        "Units": "Dark_slayer; Dark_archer; Twilight; Gobo",
+        "Desc": "Мрачные эльфы мрачных лесов"
+    },
+    {
+        "name": "Swampers",
+        "symb": 7,
+        "Units": "Flizard; Fallen; Plague_Stinger; Giant_spider",
+        "Desc": ""
+    },
+    {
+        "name": "Dwarfs",
+        "symb": 8,
+        "Units": "Dwarf; Dwarfshooter; Wyvern_hunter; Dwarfsmith",
+        "Desc": ""
+    },
+    {
+        "name": "Steampunk",
+        "symb": 9,
+        "Units": "Rifleman; LS3_golem; Wasp; Terminator",
+        "Desc": ""
+    },
+    {
+        "name": "Neutrals",
+        "symb": 7,
+        "special": true,
+        "Units": "",
+        "Desc": ""
+    }
+]

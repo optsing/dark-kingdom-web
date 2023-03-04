@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Haste",
+    "school": "School_Light",
+    "target": "Unit",
+    "img": 0,
+    "Cost": {
+      "death": 3,
+      "time": 300
+    },
+    "Desc": "Ускоряет целевых существ, они получают Ловкость"
+  },
+  {
+    "name": "Rescue",
+    "school": "School_Light",
+    "target": "Unit",
+    "img": 4,
+    "Cost": {
+      "death": 4,
+      "tier": 2,
+      "time": 400
+    },
+    "Desc": "Целевые существа перемещаются к своей базе"
+  },
+  {
+    "name": "Heal",
+    "school": "School_Light",
+    "target": "Unit",
+    "img": 3,
+    "Cost": {
+      "death": 2,
+      "tier": 2,
+      "time": 200
+    },
+    "Desc": "Полностью исцеляет целевых существ"
+  },
+  {
+    "name": "Googlehammer",
+    "school": "School_Light",
+    "target": "Unit",
+    "img": 14,
+    "Cost": {
+      "death": 4,
+      "tier": 2,
+      "time": 400
+    },
+    "Desc": "Целевые существа получают магическую атаку. Если у кого-нибудь не было дальней атаки - это существо получает её"
+  },
+  {
+    "name": "Magic_armor",
+    "school": "School_Light",
+    "target": "Unit",
+    "img": 17,
+    "Cost": {
+      "death": 4,
+      "tier": 2,
+      "time": 400
+    },
+    "Desc": "Временно защищает целевых существ от всех повреждений"
+  },
+  {
+    "name": "Polymorph",
+    "school": "School_Light",
+    "target": "Unit",
+    "img": 9,
+    "Cost": {
+      "death": 5,
+      "tier": 2,
+      "time": 500
+    },
+    "Desc": "Превращает целевых существ в других случайных того же уровня"
+  },
+  {
+    "name": "Transmutation",
+    "school": "School_Light",
+    "target": "Unit",
+    "img": 12,
+    "Cost": {
+      "death": 5,
+      "tier": 2,
+      "time": 500
+    },
+    "Desc": "Превращает целевых существ в существ большего уровня, той же расы. Текущее здоровье существ сохраняется"
+  },
+  {
+    "name": "Mass_polymorph",
+    "school": "School_Light",
+    "target": "Mass",
+    "img": 10,
+    "Cost": {
+      "death": 5,
+      "tier": 3,
+      "time": 500
+    },
+    "Desc": "Превращает всех существ в других случайных того же уровня"
+  },
+  {
+    "name": "Weakness",
+    "school": "School_Dark",
+    "target": "Unit",
+    "img": 1,
+    "Cost": {
+      "death": 5,
+      "tier": 1,
+      "time": 500
+    },
+    "Desc": "Замедляет целевых существ, он получают Неповоротливость"
+  },
+  {
+    "name": "School_Dark_arrow",
+    "school": "School_Dark",
+    "target": "Unit",
+    "img": 11,
+    "Cost": {
+      "death": 5,
+      "tier": 3,
+      "time": 500
+    },
+    "Desc": "Добивает целевых существ на 200. Для каждого уничтоженного - возрождает нежить того же уровня на его месте"
+  },
+  {
+    "name": "Oblivion",
+    "school": "School_Dark",
+    "target": "Unit",
+    "img": 18,
+    "Cost": {
+      "death": 4,
+      "tier": 2,
+      "time": 400
+    },
+    "Desc": "Блокирует способности целевых существ"
+  },
+  {
+    "name": "The_Covenant",
+    "school": "School_Dark",
+    "target": "Unit",
+    "img": 6,
+    "Cost": {
+      "death": 6,
+      "tier": 3,
+      "time": 600
+    },
+    "Desc": "Уничтожает целевых существ. Для каждого существа - ранит замок оппонента владельца на число жизней уничтоженного"
+  },
+  {
+    "name": "Ghost_mode",
+    "school": "School_Dark",
+    "target": "Unit",
+    "img": 5,
+    "Cost": {
+      "death": 4,
+      "tier": 2,
+      "time": 400
+    },
+    "Desc": "Целевые существа становятся нежитью и получают бестелесность"
+  },
+  {
+    "name": "Poison_wave",
+    "school": "School_Dark",
+    "target": "Mass",
+    "img": 16,
+    "Cost": {
+      "death": 5,
+      "tier": 3,
+      "time": 500
+    },
+    "Desc": "Ранит отравленных существ противника на 70-100 и исцеляет своих на 70-100. Все существа теряют отравление"
+  },
+  {
+    "name": "Magic_arrow",
+    "school": "School_Chaos",
+    "target": "Unit",
+    "img": 2,
+    "Cost": {
+      "death": 2,
+      "tier": 1,
+      "time": 200
+    },
+    "Desc": "Наносит 100-150 магических повреждений целевым юнитам"
+  },
+  {
+    "name": "Earthquake",
+    "school": "School_Chaos",
+    "target": "Mass",
+    "img": 19,
+    "Cost": {
+      "death": 4,
+      "tier": 2,
+      "time": 400
+    },
+    "Desc": "Ранит все здания на 250-500"
+  },
+  {
+    "name": "Storm",
+    "school": "School_Chaos",
+    "target": "Mass",
+    "img": 8,
+    "Cost": {
+      "death": 5,
+      "tier": 3,
+      "time": 500
+    },
+    "Desc": "Все летающие существа противника получают 70-100 немагического урона и теряют полет"
+  },
+  {
+    "name": "Mana_blast",
+    "school": "School_Chaos",
+    "target": "Mass",
+    "img": 7,
+    "Cost": {
+      "death": 8,
+      "tier": 3,
+      "time": 800
+    },
+    "Desc": "Взрывает ману магов, взрыв наносит 70-100 урона, маги теряют броню"
+  },
+  {
+    "name": "Arrowrain",
+    "school": "School_Chaos",
+    "target": "Mass",
+    "img": 15,
+    "Cost": {
+      "death": 4,
+      "tier": 3,
+      "time": 400
+    },
+    "Desc": "Выпускается по стреле в каждое существо противника. Стрелы наносят 5-10 немагического урона за каждое Ваше существо"
+  }
+]
+

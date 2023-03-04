@@ -1,0 +1,4758 @@
+[
+  {
+    "id": 1,
+    "name": "Soldier",
+    "race": "Humans",
+    "icon": 104,
+    "Damage": {
+      "min": 15,
+      "max": 20
+    },
+    "Health": 250,
+    "Armor": "Heavy",
+    "Cost": {
+      "money": 60,
+      "tier": 1,
+      "time": 180
+    },
+    "Abilites": [
+      {
+        "name": "Brave",
+        "value": 20
+      },
+      {
+        "name": "Life_rollback",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Archer",
+    "race": "Humans",
+    "support": true,
+    "icon": 5,
+    "Damage": {
+      "min": 30,
+      "max": 40,
+      "range": 4,
+      "ammo": "Arrow",
+      "speed": 60
+    },
+    "Health": 200,
+    "Armor": "Light",
+    "Cost": {
+      "money": 60,
+      "tier": 1,
+      "time": 180
+    },
+    "Abilites": [
+      {
+        "name": "Melee_penalty"
+      },
+      {
+        "name": "Landshooter"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Physician",
+    "race": "Humans",
+    "support": true,
+    "icon": 86,
+    "Damage": {
+      "min": 10,
+      "max": 20,
+      "range": 2,
+      "ammo": "BlueBall",
+      "speed": 60
+    },
+    "Health": 200,
+    "Armor": "Light",
+    "Cost": {
+      "money": 60,
+      "tier": 1,
+      "time": 180
+    },
+    "Abilites": [
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Healing_aura"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Griffin",
+    "race": "Humans",
+    "icon": 59,
+    "Damage": {
+      "min": 20,
+      "max": 25
+    },
+    "Health": 250,
+    "Armor": "Light",
+    "Speed": "Fast",
+    "Side": "Human",
+    "Cost": {
+      "money": 60,
+      "tier": 1,
+      "time": 180
+    },
+    "Abilites": [
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "CatchAbil"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Pegasus_Rider",
+    "race": "Humans",
+    "support": true,
+    "icon": 85,
+    "Damage": {
+      "min": 50,
+      "max": 75,
+      "range": 3,
+      "ammo": "Arrow",
+      "speed": 60
+    },
+    "Health": 500,
+    "Armor": "Heavy",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "pegasus",
+      "img": 0,
+      "imgx": -4
+    },
+    "Rect": {
+      "w": 30,
+      "h": 37
+    },
+    "CorpseImage": {
+      "bmp": "pegasus",
+      "img": 1
+    },
+    "Desc": "Неизвестно кого осталось меньше - пегасов или самих рыцарей. Во всяком случае ни тех, ни других почти не встретить",
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Hover"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Inquisitor",
+    "race": "Humans",
+    "icon": 69,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 400,
+    "Armor": "Heavy",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Purification"
+      },
+      {
+        "name": "Life_rollback",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Sage",
+    "race": "Humans",
+    "support": true,
+    "icon": 93,
+    "Damage": {
+      "min": 10,
+      "max": 20,
+      "range": 2,
+      "ammo": "BlueBall",
+      "speed": 60
+    },
+    "Health": 600,
+    "Armor": "Ethereal",
+    "Cost": {
+      "money": 300,
+      "tier": 3,
+      "death": 10,
+      "time": 600
+    },
+    "Image": {
+      "bmp": "sage",
+      "img": 0,
+      "imgx": -2
+    },
+    "Rect": {
+      "w": 30,
+      "h": 39
+    },
+    "CorpseImage": {
+      "bmp": "sage",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Power_of_unity"
+      },
+      {
+        "name": "Eternal"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Skeleton_archer",
+    "race": "Undeads",
+    "special": true,
+    "subrace": "Skeleton",
+    "icon": 96,
+    "Damage": {
+      "min": 10,
+      "max": 15,
+      "range": 3,
+      "ammo": "Arrow"
+    },
+    "Health": 80,
+    "Armor": "Light",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 40,
+      "tier": 1,
+      "time": 120
+    },
+    "Desc": "Кости павших ровными рядам идут в бой, гонимые волей некроманта",
+    "Abilites": [
+      {
+        "name": "Undead"
+      },
+      {
+        "name": "Incarnation"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Walking_corpse",
+    "race": "Undeads",
+    "icon": 121,
+    "Damage": {
+      "min": 30,
+      "max": 40,
+      "speed": 60
+    },
+    "Health": 200,
+    "Speed": "Slow",
+    "Cost": {
+      "money": 60,
+      "tier": 1,
+      "time": 180
+    },
+    "Abilites": [
+      {
+        "name": "Undead"
+      },
+      {
+        "name": "Incarnation"
+      },
+      {
+        "name": "Plague"
+      },
+      {
+        "name": "Speed_bonus",
+        "when": "At_night"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Wraith",
+    "race": "Undeads",
+    "icon": 128,
+    "Damage": {
+      "min": 20,
+      "max": 25
+    },
+    "Health": 150,
+    "Speed": "Very_fast",
+    "Armor": "Ethereal",
+    "Cost": {
+      "money": 80,
+      "tier": 1,
+      "time": 240
+    },
+    "Abilites": [
+      {
+        "name": "Undead"
+      },
+      {
+        "name": "Bodyless"
+      },
+      {
+        "name": "Flying"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Bone_Golem",
+    "race": "Undeads",
+    "support": true,
+    "subrace": "Golem",
+    "icon": 15,
+    "Damage": {
+      "min": 20,
+      "max": 40,
+      "speed": 60
+    },
+    "Health": 600,
+    "Armor": "Heavy",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "bone_golem",
+      "img": 0,
+      "imgx": -4
+    },
+    "Rect": {
+      "w": 30,
+      "h": 39
+    },
+    "CorpseImage": {
+      "bmp": "bone_golem",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Undead"
+      },
+      {
+        "name": "Incarnation"
+      },
+      {
+        "name": "Death_reaper",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Dragolich",
+    "race": "Undeads",
+    "icon": 32,
+    "Damage": {
+      "min": 50,
+      "max": 75,
+      "range": 2,
+      "ammo": "VioletBall",
+      "speed": 60
+    },
+    "Health": 350,
+    "Armor": "Heavy",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "dragolich",
+      "img": 0,
+      "imgx": -30
+    },
+    "Rect": {
+      "w": 30,
+      "h": 42
+    },
+    "CorpseImage": {
+      "bmp": "dragolich",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Undead"
+      },
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Incarnation"
+      },
+      {
+        "name": "Dragon_breath"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Lich",
+    "race": "Undeads",
+    "support": true,
+    "icon": 74,
+    "Damage": {
+      "min": 40,
+      "max": 50,
+      "range": 2,
+      "ammo": "VioletBall",
+      "speed": 60
+    },
+    "Health": 350,
+    "Speed": "Slow",
+    "Armor": "Heavy",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Undead"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Incarnation"
+      },
+      {
+        "name": "Plaguer"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Grave_Priest",
+    "race": "Undeads",
+    "support": true,
+    "icon": 58,
+    "Damage": {
+      "min": 75,
+      "max": 100,
+      "range": 3,
+      "ammo": "VioletBall",
+      "speed": 60
+    },
+    "Health": 500,
+    "Speed": "Slow",
+    "Armor": "Heavy",
+    "Cost": {
+      "money": 300,
+      "tier": 3,
+      "death": 10,
+      "time": 600
+    },
+    "Image": {
+      "bmp": "gravepriest",
+      "img": 0,
+      "imgx": -2
+    },
+    "Rect": {
+      "w": 30,
+      "h": 39
+    },
+    "CorpseImage": {
+      "bmp": "gravepriest",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Undead"
+      },
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Incarnation"
+      },
+      {
+        "name": "Necromancy"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Battle_imp",
+    "race": "Demons",
+    "subrace": "Imp",
+    "icon": 10,
+    "Damage": {
+      "min": 66,
+      "max": 66
+    },
+    "Health": 66,
+    "Speed": "Very_fast",
+    "Cost": {
+      "money": 30,
+      "tier": 1,
+      "time": 90
+    },
+    "Desc": "Ииииииии! Ба-бах!",
+    "Abilites": [
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Explode_protect"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Kamikaze"
+      },
+      {
+        "name": "Landing",
+        "when": "On_harm"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Slave",
+    "race": "Demons",
+    "icon": 100,
+    "Damage": {
+      "min": 20,
+      "max": 25
+    },
+    "Health": 266,
+    "Speed": "Fast",
+    "Cost": {
+      "money": 50,
+      "tier": 1,
+      "time": 120
+    },
+    "Desc": "Неудачные творения Скульпторов в быту используются для самой черной работы",
+    "Abilites": [
+      {
+        "name": "Levitation_around",
+        "when": "On_death"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Sukkubus",
+    "race": "Demons",
+    "support": true,
+    "icon": 109,
+    "Damage": {
+      "min": 20,
+      "max": 30,
+      "range": 3,
+      "ammo": "RedBall",
+      "speed": 60
+    },
+    "Health": 266,
+    "Speed": "Fast",
+    "Cost": {
+      "money": 70,
+      "tier": 1,
+      "time": 210
+    },
+    "Abilites": [
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Hate_flyers"
+      },
+      {
+        "name": "Hate_giants"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Joker",
+    "race": "Demons",
+    "icon": 73,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 466,
+    "Speed": "Very_fast",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "joker",
+      "img": 0,
+      "imgx": -5
+    },
+    "Rect": {
+      "w": 30,
+      "h": 39
+    },
+    "CorpseImage": {
+      "bmp": "joker",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Durability"
+      },
+      {
+        "name": "Levitation"
+      },
+      {
+        "name": "Instability"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Devourer",
+    "race": "Demons",
+    "icon": 31,
+    "Damage": {
+      "min": 50,
+      "max": 75
+    },
+    "Health": 666,
+    "Speed": "Fast",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Desc": "Ням-ням",
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Corpseeating"
+      },
+      {
+        "name": "Denying",
+        "value": 50
+      },
+      {
+        "name": "Devour"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Furious",
+    "race": "Demons",
+    "support": true,
+    "icon": 49,
+    "Damage": {
+      "min": 75,
+      "max": 100,
+      "range": 2,
+      "ammo": "RedBall",
+      "speed": 60
+    },
+    "Health": 766,
+    "Speed": "Fast",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Range_penalty"
+      },
+      {
+        "name": "Instant_kill",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Womb",
+    "race": "Demons",
+    "support": true,
+    "icon": 127,
+    "Damage": {
+      "min": 20,
+      "max": 25
+    },
+    "Health": 966,
+    "Speed": "Slow",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "womb",
+      "img": 0,
+      "imgx": -11
+    },
+    "Rect": {
+      "w": 30,
+      "h": 53
+    },
+    "CorpseImage": {
+      "bmp": "womb",
+      "img": 1
+    },
+    "Desc": "Пожалуй лучшее творение Скульптора",
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Huge"
+      },
+      {
+        "name": "WombAbil"
+      },
+      {
+        "name": "Prod_boost",
+        "value": 25
+      },
+      {
+        "name": "Eternal"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Marauder",
+    "race": "Horde",
+    "icon": 78,
+    "Damage": {
+      "min": 25,
+      "max": 35
+    },
+    "Health": 400,
+    "Armor": "Light",
+    "Cost": {
+      "money": 100,
+      "tier": 1,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Looter",
+        "value": 20
+      },
+      {
+        "name": "Crasher",
+        "value": 24
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Bomber",
+    "race": "Horde",
+    "support": true,
+    "icon": 14,
+    "Damage": {
+      "min": 20,
+      "max": 30,
+      "range": 2,
+      "ammo": "Bomb",
+      "speed": 60
+    },
+    "Health": 300,
+    "Armor": "Light",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 80,
+      "tier": 1,
+      "time": 240
+    },
+    "Abilites": [
+      {
+        "name": "Destroy_light_armor"
+      },
+      {
+        "name": "Destroy_heavy_armor",
+        "when": "Tier",
+        "whenValue": 2
+      },
+      {
+        "name": "Destroy_ethereal_armor",
+        "when": "Tier",
+        "whenValue": 3
+      },
+      {
+        "name": "Explosive",
+        "when": "On_death"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Shaman",
+    "race": "Horde",
+    "support": true,
+    "icon": 95,
+    "Damage": {
+      "min": 30,
+      "max": 40,
+      "range": 3,
+      "ammo": "VioletBall",
+      "speed": 60
+    },
+    "Health": 200,
+    "Armor": "Light",
+    "Cost": {
+      "money": 80,
+      "tier": 1,
+      "time": 240
+    },
+    "Abilites": [
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Melee_penalty"
+      },
+      {
+        "name": "Evil_eye"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Winger",
+    "race": "Horde",
+    "support": true,
+    "icon": 126,
+    "Damage": {
+      "min": 30,
+      "max": 40,
+      "range": 2,
+      "ammo": "Bomb",
+      "speed": 60
+    },
+    "Health": 250,
+    "Armor": "Light",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 80,
+      "tier": 1,
+      "time": 240
+    },
+    "Image": {
+      "bmp": "orc_airmachine",
+      "img": 0,
+      "imgx": -20
+    },
+    "Rect": {
+      "w": 30,
+      "h": 40
+    },
+    "CorpseImage": {
+      "bmp": "orc_airmachine",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Spikes_bomb"
+      },
+      {
+        "name": "Explosive",
+        "when": "On_death"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Berserker",
+    "race": "Horde",
+    "support": true,
+    "icon": 11,
+    "Damage": {
+      "min": 50,
+      "max": 75
+    },
+    "Health": 400,
+    "Armor": "Light",
+    "Speed": "Very_fast",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Burst"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Warchief",
+    "race": "Horde",
+    "icon": 122,
+    "Damage": {
+      "min": 25,
+      "max": 35
+    },
+    "Health": 500,
+    "Armor": "Light",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Encourage_first",
+        "value": 10
+      },
+      {
+        "name": "Crasher",
+        "value": 24
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Troll",
+    "race": "Horde",
+    "icon": 117,
+    "Damage": {
+      "min": 100,
+      "max": 150,
+      "speed": 60
+    },
+    "Health": 750,
+    "Armor": "Light",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "troll",
+      "img": 0,
+      "imgx": -20
+    },
+    "Rect": {
+      "w": 30,
+      "h": 70
+    },
+    "CorpseImage": {
+      "bmp": "troll",
+      "img": 1
+    },
+    "Desc": "'- Дикари призвали каменного голема!... а, погодите, это всего лишь старый тролль...'",
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Huge"
+      },
+      {
+        "name": "Clumsiness"
+      },
+      {
+        "name": "Poisonproof"
+      },
+      {
+        "name": "Regeneration",
+        "when": "Tier",
+        "whenValue": 3
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Dwarf",
+    "race": "Dwarfs",
+    "icon": 35,
+    "Damage": {
+      "min": 20,
+      "max": 25
+    },
+    "Health": 250,
+    "Armor": "Light",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 60,
+      "tier": 1,
+      "time": 180
+    },
+    "Abilites": [
+      {
+        "name": "Stack"
+      },
+      {
+        "name": "Receive_heavy_armor"
+      },
+      {
+        "name": "Receive_ethereal_armor"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Dwarfsmith",
+    "race": "Dwarfs",
+    "icon": 41,
+    "Damage": {
+      "min": 25,
+      "max": 35
+    },
+    "Health": 500,
+    "Speed": "Slow",
+    "Armor": "Heavy",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Stack"
+      },
+      {
+        "name": "Blacksmith",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Dwarfshooter",
+    "race": "Dwarfs",
+    "support": true,
+    "icon": 40,
+    "Damage": {
+      "min": 30,
+      "max": 45,
+      "range": 3,
+      "ammo": "Bullet",
+      "speed": 90
+    },
+    "Health": 200,
+    "Speed": "Slow",
+    "Armor": "Heavy",
+    "Cost": {
+      "money": 70,
+      "tier": 1,
+      "time": 210
+    },
+    "Abilites": [
+      {
+        "name": "Stack"
+      },
+      {
+        "name": "Landshooter"
+      },
+      {
+        "name": "Shooter"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Dark_druid",
+    "race": "Elves",
+    "support": true,
+    "icon": 27,
+    "Damage": {
+      "min": 25,
+      "max": 35,
+      "range": 3,
+      "ammo": "VioletBall",
+      "speed": 60
+    },
+    "Health": 200,
+    "Armor": "Light",
+    "Cost": {
+      "money": 80,
+      "tier": 1,
+      "time": 240
+    },
+    "Abilites": [
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Agility",
+        "value": 20
+      },
+      {
+        "name": "Curser"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Dark_archer",
+    "race": "Elves",
+    "support": true,
+    "icon": 26,
+    "Damage": {
+      "min": 30,
+      "max": 40,
+      "range": 4,
+      "ammo": "Arrow",
+      "speed": 60
+    },
+    "Health": 175,
+    "Armor": "Light",
+    "Cost": {
+      "money": 70,
+      "tier": 1,
+      "time": 210
+    },
+    "Abilites": [
+      {
+        "name": "Melee_penalty"
+      },
+      {
+        "name": "Agility",
+        "value": 20
+      },
+      {
+        "name": "Soullink"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Dark_slayer",
+    "race": "Elves",
+    "icon": 28,
+    "Damage": {
+      "min": 15,
+      "max": 20
+    },
+    "Health": 250,
+    "Armor": "Light",
+    "Cost": {
+      "money": 60,
+      "tier": 1,
+      "time": 180
+    },
+    "Abilites": [
+      {
+        "name": "Agility",
+        "value": 20
+      },
+      {
+        "name": "Agility_rollback",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Dragon",
+    "race": "Dwarfs",
+    "icon": 33,
+    "Damage": {
+      "min": 100,
+      "max": 150,
+      "range": 2,
+      "ammo": "RedBall",
+      "speed": 60
+    },
+    "Health": 800,
+    "Armor": "Heavy",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 300,
+      "tier": 3,
+      "death": 10,
+      "time": 600
+    },
+    "Image": {
+      "bmp": "dragon",
+      "img": 0,
+      "imgx": -37
+    },
+    "Rect": {
+      "w": 30,
+      "h": 45
+    },
+    "CorpseImage": {
+      "bmp": "dragon",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Durability"
+      },
+      {
+        "name": "Spellproof"
+      },
+      {
+        "name": "Dragon_breath"
+      },
+      {
+        "name": "Eternal"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Spirit",
+    "race": "Undeads",
+    "special": true,
+    "icon": 106,
+    "Damage": {
+      "min": 10,
+      "max": 15
+    },
+    "Health": 75,
+    "Armor": "Ethereal",
+    "Speed": "Very_fast",
+    "Abilites": [
+      {
+        "name": "Undead"
+      },
+      {
+        "name": "Bodyless"
+      },
+      {
+        "name": "Flying"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Creaper",
+    "race": "Elves",
+    "subrace": "Monster",
+    "icon": 23,
+    "Damage": {
+      "min": 100,
+      "max": 150,
+      "speed": 60
+    },
+    "Health": 500,
+    "Armor": "Ethereal",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 300,
+      "tier": 3,
+      "death": 10,
+      "time": 600
+    },
+    "Image": {
+      "bmp": "creaper",
+      "img": 0,
+      "imgx": -18
+    },
+    "Rect": {
+      "w": 30,
+      "h": 39
+    },
+    "CorpseImage": {
+      "bmp": "creaper",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Bodyless"
+      },
+      {
+        "name": "Agility",
+        "value": 20
+      },
+      {
+        "name": "Kill_on_agil"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Wyvern",
+    "race": "Swampers",
+    "icon": 131,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 500,
+    "Armor": "Light",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "vyvern",
+      "img": 0,
+      "imgx": -24
+    },
+    "Rect": {
+      "w": 30,
+      "h": 39
+    },
+    "CorpseImage": {
+      "bmp": "vyvern",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Poisoner",
+        "value": 100
+      },
+      {
+        "name": "Regeneration"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Wyvern_hunter",
+    "race": "Dwarfs",
+    "support": true,
+    "icon": 132,
+    "Damage": {
+      "min": 50,
+      "max": 75,
+      "range": 2,
+      "ammo": "BigArrow",
+      "speed": 90
+    },
+    "Health": 250,
+    "Armor": "Heavy",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 80,
+      "tier": 1,
+      "time": 240
+    },
+    "Desc": "Конструкция гарпуна такова, что нанесенные им раны практически не заживают",
+    "Abilites": [
+      {
+        "name": "Stack"
+      },
+      {
+        "name": "Heavy_arrows",
+        "value": 100
+      },
+      {
+        "name": "Crippling_injury"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Rainysunday",
+    "race": "Neutrals",
+    "support": true,
+    "subrace": "Pony",
+    "icon": 90,
+    "Damage": {
+      "min": 50,
+      "max": 75
+    },
+    "Health": 500,
+    "Armor": "Heavy",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Garrison"
+      },
+      {
+        "name": "Prod_boost",
+        "value": 50
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Slicy",
+    "race": "Neutrals",
+    "support": true,
+    "subrace": "Pony",
+    "icon": 101,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 500,
+    "Armor": "Heavy",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Garrison"
+      },
+      {
+        "name": "Slow_production"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Flizard",
+    "race": "Swampers",
+    "icon": 47,
+    "Damage": {
+      "min": 5,
+      "max": 10
+    },
+    "Health": 100,
+    "Armor": "None",
+    "Speed": "Very_fast",
+    "Cost": {
+      "money": 40,
+      "tier": 1,
+      "time": 120
+    },
+    "Abilites": [
+      {
+        "name": "Swarm",
+        "value": 1
+      },
+      {
+        "name": "Chance_to_fly"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Fallen",
+    "race": "Swampers",
+    "icon": 46,
+    "Damage": {
+      "min": 20,
+      "max": 25
+    },
+    "Health": 250,
+    "Armor": "Light",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 70,
+      "tier": 1,
+      "time": 210
+    },
+    "Abilites": [
+      {
+        "name": "Poisoner",
+        "value": 20
+      },
+      {
+        "name": "Pain_absorber"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Swarm_leader",
+    "race": "Swampers",
+    "support": true,
+    "icon": 110,
+    "Damage": {
+      "min": 40,
+      "max": 50,
+      "range": 3,
+      "ammo": "GreenBall",
+      "speed": 60
+    },
+    "Health": 500,
+    "Speed": "Normal",
+    "Armor": "Light",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "life": 0,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Swarm",
+        "value": 15
+      },
+      {
+        "name": "Prod_boost",
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Plague_Stinger",
+    "race": "Swampers",
+    "support": true,
+    "icon": 89,
+    "Damage": {
+      "min": 30,
+      "max": 40,
+      "range": 3,
+      "ammo": "Arrow",
+      "speed": 60
+    },
+    "Health": 200,
+    "Armor": "Light",
+    "Cost": {
+      "money": 70,
+      "tier": 1,
+      "time": 210
+    },
+    "Abilites": [
+      {
+        "name": "Melee_penalty"
+      },
+      {
+        "name": "Vampirism"
+      },
+      {
+        "name": "Hate_poisoned"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Valter_Merington",
+    "race": "Humans",
+    "support": true,
+    "icon": 120,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 400,
+    "Armor": "Heavy",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Publican"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Abdusciius",
+    "race": "Demons",
+    "subrace": "Monster",
+    "icon": 0,
+    "Damage": {
+      "min": 75,
+      "max": 100
+    },
+    "Health": 1466,
+    "Speed": "Fast",
+    "Cost": {
+      "money": 300,
+      "tier": 3,
+      "death": 10,
+      "time": 600
+    },
+    "Image": {
+      "bmp": "archdemon",
+      "img": 0,
+      "imgx": -21
+    },
+    "Rect": {
+      "w": 30,
+      "h": 70
+    },
+    "CorpseImage": {
+      "bmp": "archdemon",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Sacrifice"
+      },
+      {
+        "name": "Huge"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Irmah",
+    "race": "Horde",
+    "support": true,
+    "icon": 70,
+    "Damage": {
+      "min": 50,
+      "max": 75
+    },
+    "Health": 750,
+    "Armor": "Light",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Nonhealing_wounds"
+      },
+      {
+        "name": "Ragequit"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Gobo",
+    "race": "Elves",
+    "icon": 57,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 200,
+    "Armor": "Light",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Agility",
+        "value": 20
+      },
+      {
+        "name": "Trick"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Dwarfhealer",
+    "race": "Dwarfs",
+    "support": true,
+    "icon": 37,
+    "Damage": {
+      "min": 25,
+      "max": 35
+    },
+    "Health": 400,
+    "Speed": "Slow",
+    "Armor": "Heavy",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Stack"
+      },
+      {
+        "name": "Healing_aura"
+      },
+      {
+        "name": "Healthpack",
+        "value": 100
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Arch",
+    "race": "Elves",
+    "support": true,
+    "icon": 4,
+    "Damage": {
+      "min": 40,
+      "max": 50,
+      "range": 888,
+      "ammo": "FastArrow",
+      "speed": 60
+    },
+    "Health": 300,
+    "Armor": "Light",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Accuracy"
+      },
+      {
+        "name": "Elite_archer"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Banshee",
+    "race": "Undeads",
+    "support": true,
+    "icon": 9,
+    "Damage": {
+      "min": 40,
+      "max": 50,
+      "range": 3,
+      "ammo": "VioletBall",
+      "speed": 60
+    },
+    "Health": 200,
+    "Speed": "Fast",
+    "Armor": "Ethereal",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Undead"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Bodyless"
+      },
+      {
+        "name": "Hover"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Werewolf",
+    "race": "Elves",
+    "support": true,
+    "icon": 125,
+    "Damage": {
+      "min": 45,
+      "max": 60,
+      "range": 4,
+      "ammo": "FastArrow",
+      "speed": 90
+    },
+    "Health": 200,
+    "Armor": "Light",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 90,
+      "tier": 1,
+      "time": 270
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Melee_penalty"
+      },
+      {
+        "name": "Arbalester"
+      },
+      {
+        "name": "Agility",
+        "value": 20
+      },
+      {
+        "name": "Lycanthropy",
+        "value": 54,
+        "when": "At_night"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Dark_wolf",
+    "race": "Elves",
+    "support": true,
+    "special": true,
+    "icon": 29,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 200,
+    "Armor": "Light",
+    "Speed": "Very_fast",
+    "Cost": {
+      "money": 90,
+      "tier": 1,
+      "time": 270
+    },
+    "Abilites": [
+      {
+        "name": "Burst"
+      },
+      {
+        "name": "Agility",
+        "value": 20
+      },
+      {
+        "name": "Lycanthropy",
+        "value": 53,
+        "when": "By_day"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Archhealer",
+    "race": "Humans",
+    "support": true,
+    "icon": 6,
+    "Damage": {
+      "min": 40,
+      "max": 50,
+      "range": 2,
+      "ammo": "BlueBall",
+      "speed": 60
+    },
+    "Health": 400,
+    "Armor": "Light",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "archhealer",
+      "img": 0
+    },
+    "Rect": {
+      "w": 30,
+      "h": 40
+    },
+    "CorpseImage": {
+      "bmp": "archhealer",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Mass_healing"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Wasp",
+    "race": "Steampunk",
+    "icon": 124,
+    "Damage": {
+      "min": 20,
+      "max": 25
+    },
+    "Health": 200,
+    "Armor": "Light",
+    "Speed": "Very_fast",
+    "Cost": {
+      "money": 70,
+      "tier": 1,
+      "time": 210
+    },
+    "Desc": "- Мой лорд, у нашей армии аллергия на насекомых",
+    "Abilites": [
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Machinery"
+      },
+      {
+        "name": "Evasion",
+        "when": "Machine_army",
+        "whenValue": 5
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Ghost",
+    "race": "Undeads",
+    "icon": 51,
+    "Damage": {
+      "min": 25,
+      "max": 35
+    },
+    "Health": 100,
+    "Speed": "Fast",
+    "Armor": "Ethereal",
+    "Cost": {
+      "money": 100,
+      "tier": 1,
+      "time": 300
+    },
+    "Desc": "- Стрелы просто проходят сквозь него! В рукопашную!",
+    "Abilites": [
+      {
+        "name": "Undead"
+      },
+      {
+        "name": "Bodyless"
+      },
+      {
+        "name": "Evasion"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Skeleton_warrior",
+    "race": "Undeads",
+    "special": true,
+    "subrace": "Skeleton",
+    "icon": 99,
+    "Damage": {
+      "min": 15,
+      "max": 20
+    },
+    "Health": 150,
+    "Armor": "Light",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 40,
+      "tier": 1,
+      "time": 120
+    },
+    "Desc": "Кости павших ровными рядам идут в бой, гонимые волей некроманта",
+    "Abilites": [
+      {
+        "name": "Undead"
+      },
+      {
+        "name": "Incarnation"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Skeleton_squad",
+    "race": "Undeads",
+    "subrace": "Skeleton",
+    "icon": 98,
+    "Damage": {
+      "min": -1,
+      "max": -1
+    },
+    "Health": -1,
+    "Armor": "Light",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 40,
+      "tier": 1,
+      "time": 120
+    },
+    "Desc": "Кости павших ровными рядам идут в бой, гонимые волей некроманта",
+    "Abilites": [
+      {
+        "name": "Crowd"
+      },
+      {
+        "name": "Crowd2",
+        "when": "Tier",
+        "whenValue": 2
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Skeleton_knight",
+    "race": "Undeads",
+    "special": true,
+    "subrace": "Skeleton",
+    "icon": 97,
+    "Damage": {
+      "min": 15,
+      "max": 20
+    },
+    "Health": 200,
+    "Armor": "Light",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 40,
+      "tier": 1,
+      "time": 120
+    },
+    "Desc": "Кости павших ровными рядам идут в бой, гонимые волей некроманта",
+    "Abilites": [
+      {
+        "name": "Undead"
+      },
+      {
+        "name": "Incarnation"
+      },
+      {
+        "name": "Brave",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Dwarfguard",
+    "race": "Dwarfs",
+    "support": true,
+    "icon": 36,
+    "Damage": {
+      "min": 10,
+      "max": 15
+    },
+    "Health": 500,
+    "Armor": "Heavy",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Stack"
+      },
+      {
+        "name": "Spellproof_stack"
+      },
+      {
+        "name": "Antimage",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Spirit_crowd",
+    "race": "Undeads",
+    "icon": 107,
+    "Health": 100,
+    "Armor": "Ethereal",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 60,
+      "tier": 1,
+      "time": 180
+    },
+    "Abilites": [
+      {
+        "name": "Undead"
+      },
+      {
+        "name": "Bodyless"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Ignore_units"
+      },
+      {
+        "name": "Damage_on_move"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Lord_of_ghosts",
+    "race": "Undeads",
+    "support": true,
+    "icon": 75,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 400,
+    "Armor": "Ethereal",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Undead"
+      },
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Bodyless"
+      },
+      {
+        "name": "Spawn_ghosts"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Alt",
+    "race": "Elves",
+    "support": true,
+    "icon": 2,
+    "Damage": {
+      "min": 50,
+      "max": 75,
+      "range": 3,
+      "ammo": "VioletBall",
+      "speed": 60
+    },
+    "Health": 500,
+    "Armor": "Light",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Agility",
+        "value": 20
+      },
+      {
+        "name": "Punishment_on_miss"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Militia",
+    "race": "Humans",
+    "icon": 79,
+    "Damage": {
+      "min": 10,
+      "max": 15
+    },
+    "Health": 150,
+    "Armor": "Light",
+    "Cost": {
+      "money": 40,
+      "tier": 1,
+      "time": 120
+    },
+    "Desc": "'... года был издан указ - собрать всех кто может держать оружие и пустить в бой, дабы хлеб зря не ели...'",
+    "Abilites": [
+      {
+        "name": "Random model",
+        "hidden": true
+      },
+      {
+        "name": "Economy",
+        "when": "On_death"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Ihor",
+    "race": "Demons",
+    "icon": 66,
+    "Damage": {
+      "min": 10,
+      "max": 15
+    },
+    "Health": 266,
+    "Armor": "None",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 50,
+      "tier": 1,
+      "time": 150
+    },
+    "Desc": "",
+    "Abilites": [
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Extinction"
+      },
+      {
+        "name": "Heal_demons",
+        "when": "On_death"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Ihor_golem",
+    "race": "Demons",
+    "icon": 67,
+    "Damage": {
+      "min": 25,
+      "max": 35,
+      "subrace": "Golem"
+    },
+    "Health": 666,
+    "Armor": "None",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "ihor_golem",
+      "img": 0,
+      "imgx": -9
+    },
+    "Rect": {
+      "w": 30,
+      "h": 39
+    },
+    "CorpseImage": {
+      "bmp": "ihor_golem",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Extinction"
+      },
+      {
+        "name": "Heal_demons",
+        "when": "On_death"
+      },
+      {
+        "name": "Summon_ihor",
+        "when": "On_death"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Warmachine",
+    "race": "Humans",
+    "icon": 123,
+    "Damage": {
+      "min": 30,
+      "max": 45,
+      "speed": 90
+    },
+    "Health": 500,
+    "Armor": "Heavy",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "warmachine",
+      "img": 0,
+      "imgx": -13
+    },
+    "Rect": {
+      "w": 30,
+      "h": 70
+    },
+    "CorpseImage": {
+      "bmp": "warmachine",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Huge"
+      },
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Machinery"
+      },
+      {
+        "name": "Weaponry"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Crazy_imp",
+    "race": "Demons",
+    "subrace": "Imp",
+    "icon": 22,
+    "Damage": {
+      "min": 66,
+      "max": 66
+    },
+    "Health": 66,
+    "Speed": "Fast",
+    "Cost": {
+      "money": 30,
+      "tier": 1,
+      "time": 90
+    },
+    "Desc": "Ихихихи-ик... Ба-бах!",
+    "Abilites": [
+      {
+        "name": "Explode_protect"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Kamikaze"
+      },
+      {
+        "name": "Random_position"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Ihor_master",
+    "race": "Demons",
+    "support": true,
+    "icon": 68,
+    "Damage": {
+      "min": 45,
+      "max": 60,
+      "range": 3,
+      "ammo": "RedBall",
+      "speed": 90
+    },
+    "Health": 866,
+    "Speed": "Fast",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "ichorium_master",
+      "img": 0,
+      "imgx": -9
+    },
+    "Rect": {
+      "w": 30,
+      "h": 39
+    },
+    "CorpseImage": {
+      "bmp": "ichorium_master",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Spawn_demons"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Centaur_archer",
+    "race": "Horde",
+    "support": true,
+    "subrace": "Centaur",
+    "icon": 19,
+    "Damage": {
+      "min": 30,
+      "max": 60,
+      "range": 3,
+      "speed": 60,
+      "ammo": "Arrow"
+    },
+    "Health": 300,
+    "Armor": "Light",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 100,
+      "tier": 1,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "centaur",
+      "img": 0,
+      "imgx": -14
+    },
+    "Rect": {
+      "w": 30,
+      "h": 44
+    },
+    "CorpseImage": {
+      "bmp": "centaur",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "First_shoot",
+        "value": 150
+      },
+      {
+        "name": "Recharge",
+        "when": "On_enemy_side"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Centaur_marauder",
+    "race": "Horde",
+    "subrace": "Centaur",
+    "icon": 21,
+    "Damage": {
+      "min": 25,
+      "max": 35
+    },
+    "Health": 400,
+    "Armor": "Light",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 100,
+      "tier": 1,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "centaur_marauder",
+      "img": 0,
+      "imgx": -14
+    },
+    "Rect": {
+      "w": 30,
+      "h": 44
+    },
+    "CorpseImage": {
+      "bmp": "centaur_marauder",
+      "img": 1,
+      "imgx": -14
+    },
+    "Abilites": [
+      {
+        "name": "Looter",
+        "value": 20
+      },
+      {
+        "name": "Attack_bonus",
+        "value": 15,
+        "when": "On_enemy_side"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Unnamed",
+    "race": "Undeads",
+    "icon": 119,
+    "Damage": {
+      "min": 50,
+      "max": 75,
+      "speed": 60
+    },
+    "Health": 400,
+    "Armor": "Heavy",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "unnamed",
+      "img": 0
+    },
+    "Rect": {
+      "w": 30,
+      "h": 54
+    },
+    "CorpseImage": {
+      "bmp": "unnamed",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Huge"
+      },
+      {
+        "name": "Immortal"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Crossbowman",
+    "race": "Humans",
+    "support": true,
+    "icon": 24,
+    "Damage": {
+      "min": 45,
+      "max": 60,
+      "range": 4,
+      "ammo": "FastArrow",
+      "speed": 90
+    },
+    "Health": 200,
+    "Armor": "Light",
+    "Cost": {
+      "money": 80,
+      "tier": 1,
+      "time": 240
+    },
+    "Abilites": [
+      {
+        "name": "Melee_penalty"
+      },
+      {
+        "name": "Arbalester"
+      },
+      {
+        "name": "Heavy_arrows",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Neutral_warrior",
+    "race": "Neutrals",
+    "subrace": "Wanderer",
+    "icon": 84,
+    "Damage": {
+      "min": 20,
+      "max": 25
+    },
+    "Health": 300,
+    "Armor": "Light",
+    "Cost": {
+      "money": 70,
+      "tier": 1,
+      "time": 210
+    },
+    "Desc": "Без страха смотрит в лицо смерти одиночка - по нему не будут плакать",
+    "Abilites": [
+      {
+        "name": "Universal"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Goblin_shooter",
+    "race": "Swampers",
+    "support": true,
+    "subrace": "Goblin",
+    "icon": 56,
+    "Damage": {
+      "min": 0,
+      "max": 5,
+      "range": 2,
+      "ammo": "GreenBall",
+      "speed": 60
+    },
+    "Health": 100,
+    "Armor": "Light",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 40,
+      "tier": 1,
+      "time": 120
+    },
+    "Abilites": [
+      {
+        "name": "Invisible"
+      },
+      {
+        "name": "Poisoner",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Giant_spider",
+    "race": "Swampers",
+    "support": true,
+    "icon": 52,
+    "Damage": {
+      "min": 50,
+      "max": 75,
+      "range": 3,
+      "ammo": "GreenBall",
+      "speed": 60
+    },
+    "Health": 500,
+    "Armor": "Light",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "giant_spider",
+      "img": 0,
+      "imgx": -30
+    },
+    "Rect": {
+      "w": 30,
+      "h": 30
+    },
+    "CorpseImage": {
+      "bmp": "giant_spider",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Range_penalty"
+      },
+      {
+        "name": "Swarm",
+        "value": 5
+      },
+      {
+        "name": "Speed_bonus",
+        "when": "At_night"
+      },
+      {
+        "name": "Slower"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Neutral_mage",
+    "race": "Neutrals",
+    "support": true,
+    "subrace": "Wanderer",
+    "icon": 83,
+    "Damage": {
+      "min": 50,
+      "max": 75,
+      "range": 2,
+      "speed": 60,
+      "ammo": "RedBall"
+    },
+    "Health": 400,
+    "Armor": "Light",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Desc": "Вспышка! Еще одна! Ах, у тебя горит одежда. Больше огня!",
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Magic_power"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Neutral_corsair",
+    "race": "Neutrals",
+    "support": true,
+    "subrace": "Wanderer",
+    "icon": 82,
+    "Damage": {
+      "min": 50,
+      "max": 75,
+      "speed": 60
+    },
+    "Health": 300,
+    "Armor": "Light",
+    "Cost": {
+      "money": 0,
+      "tier": 1,
+      "time": 150
+    },
+    "Desc": "Вечно пьянный, вечно злой",
+    "Abilites": [
+      {
+        "name": "Free"
+      },
+      {
+        "name": "Random_position"
+      },
+      {
+        "name": "We are pirates",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Goblin_kamikaze",
+    "race": "Swampers",
+    "support": true,
+    "subrace": "Goblin",
+    "icon": 54,
+    "Damage": {
+      "min": 0,
+      "max": 5
+    },
+    "Health": 100,
+    "Armor": "Light",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 40,
+      "tier": 1,
+      "time": 120
+    },
+    "Abilites": [
+      {
+        "name": "Invisible"
+      },
+      {
+        "name": "Ignore_friends"
+      },
+      {
+        "name": "Poison_around",
+        "when": "On_death"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Lord_of_swarm",
+    "race": "Swampers",
+    "subrace": "Monster",
+    "icon": 76,
+    "Damage": {
+      "min": 75,
+      "max": 100,
+      "range": 3,
+      "ammo": "GreenBall",
+      "speed": 60
+    },
+    "Health": 1200,
+    "Armor": "Light",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 300,
+      "tier": 3,
+      "death": 10,
+      "time": 600
+    },
+    "Image": {
+      "bmp": "swarmlord",
+      "img": 0,
+      "imgx": -15
+    },
+    "Rect": {
+      "w": 30,
+      "h": 30
+    },
+    "CorpseImage": {
+      "bmp": "swarmlord",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Poisonproof"
+      },
+      {
+        "name": "Poisoner",
+        "value": 100
+      },
+      {
+        "name": "Swarm",
+        "value": 30
+      },
+      {
+        "name": "Epidemy",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Ambassador",
+    "race": "Neutrals",
+    "special": true,
+    "icon": 3,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 750,
+    "Armor": "Light",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Target"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Terminator",
+    "race": "Steampunk",
+    "icon": 111,
+    "Damage": {
+      "min": 100,
+      "max": 150,
+      "speed": 60
+    },
+    "Health": 400,
+    "Armor": "Heavy",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "terminator",
+      "img": 0,
+      "imgx": -8
+    },
+    "Rect": {
+      "w": 30,
+      "h": 40
+    },
+    "CorpseImage": {
+      "bmp": "terminator",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Machinery"
+      },
+      {
+        "name": "Durability"
+      },
+      {
+        "name": "Unterminate"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Deathless",
+    "race": "Horde",
+    "icon": 30,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 400,
+    "Armor": "Light",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Denying",
+        "value": 100
+      },
+      {
+        "name": "Invulnerable",
+        "value": 300,
+        "when": "On_attack"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Sniper",
+    "race": "Neutrals",
+    "support": true,
+    "subrace": "Assassin",
+    "icon": 103,
+    "Damage": {
+      "min": 15,
+      "max": 30,
+      "range": 4,
+      "ammo": "Bullet",
+      "speed": 90
+    },
+    "Health": 200,
+    "Speed": "Normal",
+    "Armor": "Light",
+    "Cost": {
+      "money": 100,
+      "tier": 1,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Accuracy"
+      },
+      {
+        "name": "Invisible"
+      },
+      {
+        "name": "Shooter"
+      },
+      {
+        "name": "Snipering",
+        "value": 150
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Crystal_dragon",
+    "race": "Dwarfs",
+    "icon": 25,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 300,
+    "Armor": "Heavy",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "crystaldragon",
+      "img": 0,
+      "imgx": -30
+    },
+    "Rect": {
+      "w": 30,
+      "h": 42
+    },
+    "CorpseImage": {
+      "bmp": "crystaldragon",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Spellproof"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Invulnerable",
+        "value": 300,
+        "when": "On_harm"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Ground_flizard",
+    "race": "Swampers",
+    "support": true,
+    "special": true,
+    "icon": 60,
+    "Damage": {
+      "min": 0,
+      "max": 5
+    },
+    "Health": 100,
+    "Armor": "Light",
+    "Speed": "Very_fast",
+    "Cost": {
+      "money": 40,
+      "tier": 1,
+      "time": 120
+    },
+    "Abilites": [
+      {
+        "name": "Swarm",
+        "value": 1
+      },
+      {
+        "name": "Chance_to_fly"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Assassin_slasher",
+    "race": "Neutrals",
+    "subrace": "Assassin",
+    "icon": 7,
+    "Damage": {
+      "min": 15,
+      "max": 20
+    },
+    "Health": 200,
+    "Speed": "Normal",
+    "Armor": "Light",
+    "Cost": {
+      "money": 100,
+      "tier": 1,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Invisible"
+      },
+      {
+        "name": "Denying",
+        "value": 200
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Wurm",
+    "race": "Swampers",
+    "support": true,
+    "icon": 130,
+    "Damage": {
+      "min": 50,
+      "max": 75
+    },
+    "Health": 400,
+    "Armor": "Light",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "wurm",
+      "img": 0,
+      "imgx": -2
+    },
+    "Rect": {
+      "w": 30,
+      "h": 32
+    },
+    "CorpseImage": {
+      "bmp": "wurm",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Invisible"
+      },
+      {
+        "name": "Durability"
+      },
+      {
+        "name": "Swarm",
+        "value": 5
+      },
+      {
+        "name": "Ignore_friends"
+      },
+      {
+        "name": "Invisible_on_kill"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "LS3_golem",
+    "race": "Steampunk",
+    "subrace": "Golem",
+    "icon": 77,
+    "Damage": {
+      "min": 40,
+      "max": 50,
+      "speed": 60
+    },
+    "Health": 250,
+    "Armor": "Heavy",
+    "Cost": {
+      "money": 60,
+      "tier": 1,
+      "time": 180
+    },
+    "Abilites": [
+      {
+        "name": "Machinery"
+      },
+      {
+        "name": "Explosive",
+        "when": "On_death"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Rifleman",
+    "race": "Steampunk",
+    "support": true,
+    "icon": 91,
+    "Damage": {
+      "min": 20,
+      "max": 30,
+      "range": 3,
+      "ammo": "Bullet",
+      "speed": 60
+    },
+    "Health": 200,
+    "Armor": "Light",
+    "Cost": {
+      "money": 60,
+      "tier": 1,
+      "time": 180
+    },
+    "Abilites": [
+      {
+        "name": "Explode_protect"
+      },
+      {
+        "name": "Melee_penalty"
+      },
+      {
+        "name": "Shooter"
+      },
+      {
+        "name": "Range_bonus",
+        "value": 1,
+        "when": "Machine_army",
+        "whenValue": 5
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Birder",
+    "race": "Elves",
+    "support": true,
+    "icon": 12,
+    "Damage": {
+      "min": 30,
+      "max": 40,
+      "range": 3,
+      "ammo": "Arrow",
+      "speed": 60
+    },
+    "Health": 200,
+    "Armor": "Light",
+    "Cost": {
+      "money": 70,
+      "tier": 1,
+      "time": 210
+    },
+    "Abilites": [
+      {
+        "name": "Accuracy"
+      },
+      {
+        "name": "Melee_penalty"
+      },
+      {
+        "name": "Hate_flyers"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Scouteye",
+    "race": "Steampunk",
+    "icon": 94,
+    "Damage": {
+      "min": -1,
+      "max": -1
+    },
+    "Health": 100,
+    "Armor": "None",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 40,
+      "tier": 1,
+      "time": 120
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Machinery"
+      },
+      {
+        "name": "Scout"
+      },
+      {
+        "name": "Agility",
+        "value": 100
+      },
+      {
+        "name": "Ignore_units"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "BS2_golem",
+    "race": "Steampunk",
+    "subrace": "Golem",
+    "icon": 16,
+    "Damage": {
+      "min": 100,
+      "max": 150,
+      "speed": 60
+    },
+    "Health": 1000,
+    "Armor": "Heavy",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "bsgolem",
+      "img": 0,
+      "imgx": -6
+    },
+    "Rect": {
+      "w": 30,
+      "h": 40
+    },
+    "CorpseImage": {
+      "bmp": "bsgolem",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Machinery"
+      },
+      {
+        "name": "Selfdamage"
+      },
+      {
+        "name": "Explosive",
+        "when": "On_death"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Hornet",
+    "race": "Steampunk",
+    "icon": 65,
+    "Damage": {
+      "min": 25,
+      "max": 35,
+      "range": 3,
+      "ammo": "Bullet"
+    },
+    "Health": 600,
+    "Armor": "Light",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Machinery"
+      },
+      {
+        "name": "Shooter"
+      },
+      {
+        "name": "Explode_protect"
+      },
+      {
+        "name": "Rocket_shoot",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Centaur_leader",
+    "race": "Horde",
+    "support": true,
+    "subrace": "Centaur",
+    "icon": 20,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 500,
+    "Armor": "Light",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "centaur_chief",
+      "img": 0,
+      "imgx": -12
+    },
+    "Rect": {
+      "w": 30,
+      "h": 46
+    },
+    "CorpseImage": {
+      "bmp": "centaur_chief",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Centaur_prod_boost",
+        "value": 25
+      },
+      {
+        "name": "Summon_centaur",
+        "when": "On_enemy_side"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Dwarfking",
+    "race": "Dwarfs",
+    "support": true,
+    "icon": 38,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 400,
+    "Armor": "Heavy",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Stack"
+      },
+      {
+        "name": "Stack_bonus",
+        "value": 1
+      },
+      {
+        "name": "Stack_prod_boost",
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "GN1_golem",
+    "race": "Steampunk",
+    "subrace": "Golem",
+    "icon": 53,
+    "Damage": {
+      "min": 100,
+      "max": 150,
+      "speed": 60
+    },
+    "Health": 1000,
+    "Armor": "Heavy",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 300,
+      "tier": 3,
+      "death": 10,
+      "time": 600
+    },
+    "Image": {
+      "bmp": "giant_golem",
+      "img": 0,
+      "imgx": -21
+    },
+    "Rect": {
+      "w": 30,
+      "h": 70
+    },
+    "CorpseImage": {
+      "bmp": "giant_golem",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Huge"
+      },
+      {
+        "name": "Machinery"
+      },
+      {
+        "name": "Big_boom",
+        "when": "On_death"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Guardian_of_Dawn",
+    "race": "Elves",
+    "support": true,
+    "icon": 61,
+    "Damage": {
+      "min": 40,
+      "max": 50,
+      "range": 3,
+      "ammo": "Arrow",
+      "speed": 60
+    },
+    "Health": 350,
+    "Armor": "Light",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Melee_penalty"
+      },
+      {
+        "name": "Purification_on_first_attack"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Rocketman",
+    "race": "Steampunk",
+    "support": true,
+    "icon": 92,
+    "Damage": {
+      "min": 40,
+      "max": 50,
+      "range": 3,
+      "ammo": "Bullet",
+      "speed": 90
+    },
+    "Health": 400,
+    "Armor": "Light",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Explode_protect"
+      },
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Rocket_shoot",
+        "value": 100
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Blind_slayer",
+    "race": "Elves",
+    "icon": 13,
+    "Health": 400,
+    "Armor": "Light",
+    "Cost": {
+      "money": 60,
+      "tier": 1,
+      "time": 180
+    },
+    "Desc": "Свист стрел укажет цель",
+    "Abilites": [
+      {
+        "name": "Support_archers"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Faceless",
+    "race": "Swampers",
+    "support": true,
+    "icon": 45,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 500,
+    "Armor": "Light",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Swarm",
+        "value": 5
+      },
+      {
+        "name": "Clear_mind",
+        "when": "On_enter"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Jek",
+    "race": "Steampunk",
+    "support": true,
+    "icon": 71,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 500,
+    "Armor": "Light",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Explode_protect"
+      },
+      {
+        "name": "Explode_bonus"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Dragonlord",
+    "race": "Dwarfs",
+    "support": true,
+    "icon": 34,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 400,
+    "Armor": "Heavy",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Stack"
+      },
+      {
+        "name": "Stack_bonus",
+        "value": 1
+      },
+      {
+        "name": "Dragon_boss"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Time_Lord",
+    "race": "Neutrals",
+    "support": true,
+    "subrace": "Wanderer",
+    "icon": 114,
+    "Damage": {
+      "min": 75,
+      "max": 100,
+      "range": 2,
+      "ammo": "VioletBall",
+      "speed": 60
+    },
+    "Health": 400,
+    "Speed": "Normal",
+    "Armor": "Heavy",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Bodyless"
+      },
+      {
+        "name": "Time_control"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Dwarfmachine",
+    "race": "Dwarfs",
+    "support": true,
+    "icon": 39,
+    "Damage": {
+      "min": 50,
+      "max": 75,
+      "range": 3,
+      "speed": 60,
+      "ammo": "Bullet"
+    },
+    "Health": 500,
+    "Armor": "Heavy",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "transporter",
+      "img": 0,
+      "imgx": -27
+    },
+    "Rect": {
+      "w": 30,
+      "h": 36
+    },
+    "CorpseImage": {
+      "bmp": "transporter",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Machinery"
+      },
+      {
+        "name": "Durability"
+      },
+      {
+        "name": "Stack_bonus",
+        "value": 1
+      },
+      {
+        "name": "Stack_helper"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Jim",
+    "race": "Steampunk",
+    "support": true,
+    "icon": 72,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 500,
+    "Armor": "Light",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Mass_repair"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Dwarftactic",
+    "race": "Dwarfs",
+    "support": true,
+    "icon": 42,
+    "Damage": {
+      "min": 25,
+      "max": 35
+    },
+    "Health": 300,
+    "Armor": "Heavy",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 100,
+      "tier": 1,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Stack"
+      },
+      {
+        "name": "Invisible_stack"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Zealot",
+    "race": "Neutrals",
+    "subrace": "Occultist",
+    "icon": 133,
+    "Damage": {
+      "min": 25,
+      "max": 35
+    },
+    "Health": 200,
+    "Armor": "None",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 50,
+      "tier": 1,
+      "time": 150
+    },
+    "Abilites": [
+      {
+        "name": "Victim"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Dwarfzealot",
+    "race": "Neutrals",
+    "subrace": "Occultist",
+    "icon": 43,
+    "Damage": {
+      "min": 50,
+      "max": 75
+    },
+    "Health": 400,
+    "Armor": "Heavy",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Stack"
+      },
+      {
+        "name": "Victim"
+      },
+      {
+        "name": "Victim_stack"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Goblin_leader",
+    "race": "Swampers",
+    "support": true,
+    "subrace": "Goblin",
+    "icon": 55,
+    "Damage": {
+      "min": 30,
+      "max": 40,
+      "range": 2,
+      "ammo": "GreenBall",
+      "speed": 60
+    },
+    "Health": 300,
+    "Armor": "Light",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 100,
+      "tier": 1,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Heroic"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Invisible"
+      },
+      {
+        "name": "Poison_on_prod",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Butcher",
+    "race": "Neutrals",
+    "subrace": "Occultist",
+    "icon": 17,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 400,
+    "Armor": "Light",
+    "Speed": "Normal",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Victim"
+      },
+      {
+        "name": "Denying",
+        "value": 100
+      },
+      {
+        "name": "Execution"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Student_mage",
+    "race": "Neutrals",
+    "support": true,
+    "subrace": "Wanderer",
+    "icon": 108,
+    "Damage": {
+      "min": 40,
+      "max": 50,
+      "range": 2,
+      "ammo": "RedBall",
+      "speed": 60
+    },
+    "Health": 300,
+    "Armor": "Light",
+    "Cost": {
+      "money": 80,
+      "tier": 1,
+      "time": 240
+    },
+    "Abilites": [
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Garrison"
+      },
+      {
+        "name": "Magic_bonus",
+        "value": 1,
+        "when": "In_garrison"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Herald",
+    "race": "Humans",
+    "icon": 63,
+    "Damage": {
+      "min": 25,
+      "max": 35
+    },
+    "Health": 300,
+    "Armor": "Light",
+    "Cost": {
+      "money": 80,
+      "tier": 1,
+      "time": 240
+    },
+    "Abilites": [
+      {
+        "name": "Garrison"
+      },
+      {
+        "name": "Prod_boost",
+        "value": 10,
+        "when": "In_garrison"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Alchemist",
+    "race": "Swampers",
+    "icon": 1,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 600,
+    "Armor": "Light",
+    "Speed": "Slow",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Garrison"
+      },
+      {
+        "name": "Poisoner",
+        "value": 20
+      },
+      {
+        "name": "Poison_bonus",
+        "value": 10
+      },
+      {
+        "name": "Poison"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Elven_scout",
+    "race": "Elves",
+    "support": true,
+    "icon": 44,
+    "Damage": {
+      "min": 25,
+      "max": 35,
+      "range": 2,
+      "ammo": "Arrow",
+      "speed": 60
+    },
+    "Health": 250,
+    "Armor": "Light",
+    "Cost": {
+      "money": 70,
+      "tier": 1,
+      "time": 210
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Accuracy"
+      },
+      {
+        "name": "Scout"
+      },
+      {
+        "name": "Assault"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Fly_saw",
+    "race": "Steampunk",
+    "icon": 48,
+    "Health": 250,
+    "Armor": "Light",
+    "Speed": "Fast",
+    "Cost": {
+      "money": 60,
+      "tier": 1,
+      "time": 180
+    },
+    "Abilites": [
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Machinery"
+      },
+      {
+        "name": "Ignore_units"
+      },
+      {
+        "name": "Damage_on_move"
+      },
+      {
+        "name": "Explosive",
+        "when": "On_death"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Wrecker",
+    "race": "Steampunk",
+    "support": true,
+    "icon": 129,
+    "Damage": {
+      "min": 50,
+      "max": 75,
+      "speed": 60
+    },
+    "Health": 400,
+    "Armor": "Light",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Garrison"
+      },
+      {
+        "name": "Chaos",
+        "when": "In_garrison"
+      },
+      {
+        "name": "Invulnerable",
+        "value": 400,
+        "when": "On_enter"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Pilferer",
+    "race": "Horde",
+    "support": true,
+    "icon": 87,
+    "Damage": {
+      "min": 40,
+      "max": 50
+    },
+    "Health": 500,
+    "Armor": "Light",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Garrison"
+      },
+      {
+        "name": "Stealing",
+        "value": 10,
+        "when": "In_garrison"
+      },
+      {
+        "name": "Looter",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Small_dragon",
+    "race": "Dwarfs",
+    "icon": 102,
+    "Damage": {
+      "min": 20,
+      "max": 25
+    },
+    "Health": 250,
+    "Armor": "Light",
+    "Speed": "Fast",
+    "Side": "Human",
+    "Cost": {
+      "money": 70,
+      "tier": 1,
+      "time": 210
+    },
+    "Abilites": [
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Mage"
+      },
+      {
+        "name": "Spellproof"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Gargoyle",
+    "race": "Demons",
+    "icon": 50,
+    "Damage": {
+      "min": 50,
+      "max": 75
+    },
+    "Health": 666,
+    "Speed": "Fast",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Image": {
+      "bmp": "gargoyle",
+      "img": 0,
+      "imgx": -30
+    },
+    "Rect": {
+      "w": 30,
+      "h": 46
+    },
+    "CorpseImage": {
+      "bmp": "gargoyle",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Garrison"
+      },
+      {
+        "name": "Leave_garrison"
+      },
+      {
+        "name": "Kill_flyer",
+        "value": 500,
+        "when": "On_enter"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Twilight",
+    "race": "Elves",
+    "icon": 118,
+    "Damage": {
+      "min": 20,
+      "max": 25
+    },
+    "Health": 100,
+    "Armor": "Ethereal",
+    "Speed": "Fast",
+    "Side": "Human",
+    "Cost": {
+      "money": 70,
+      "tier": 1,
+      "time": 210
+    },
+    "Abilites": [
+      {
+        "name": "Flying"
+      },
+      {
+        "name": "Bodyless"
+      },
+      {
+        "name": "Agility",
+        "value": 20
+      },
+      {
+        "name": "Harm_on_agil"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Higher_vampire",
+    "race": "Undeads",
+    "icon": 64,
+    "Damage": {
+      "min": 75,
+      "max": 100
+    },
+    "Health": 500,
+    "Speed": "Slow",
+    "Armor": "Heavy",
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 5,
+      "time": 300
+    },
+    "Abilites": [
+      {
+        "name": "Elite"
+      },
+      {
+        "name": "Incarnation"
+      },
+      {
+        "name": "Vampirism"
+      },
+      {
+        "name": "Speed_bonus",
+        "when": "At_night"
+      },
+      {
+        "name": "Eternal"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Pitlord",
+    "race": "Neutrals",
+    "subrace": "Monster",
+    "icon": 88,
+    "Damage": {
+      "min": 75,
+      "max": 100
+    },
+    "Health": 1500,
+    "Speed": "Normal",
+    "Cost": {
+      "money": 300,
+      "tier": 3,
+      "death": 10,
+      "time": 600
+    },
+    "Image": {
+      "bmp": "pitlord",
+      "img": 0,
+      "imgx": -30
+    },
+    "Rect": {
+      "w": 30,
+      "h": 70
+    },
+    "CorpseImage": {
+      "bmp": "pitlord",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Huge"
+      },
+      {
+        "name": "Damage_mirror"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Tier_2",
+    "race": "",
+    "special": true,
+    "upgrade": true,
+    "icon": 112,
+    "Cost": {
+      "money": 150,
+      "tier": 1,
+      "death": 15,
+      "time": 500
+    },
+    "Desc": "Переход на второй уровень развития./+25 к приросту Золота, +1 к размеру гарнизона",
+    "Abilites": [
+      {
+        "name": "Unique"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Tier_3",
+    "race": "",
+    "special": true,
+    "upgrade": true,
+    "icon": 113,
+    "Cost": {
+      "money": 150,
+      "tier": 2,
+      "death": 15,
+      "time": 500
+    },
+    "Desc": "Переход на третий уровень развития./+25 к приросту Золота, +1 к размеру гарнизона",
+    "Abilites": [
+      {
+        "name": "Unique"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Tower",
+    "race": "Race_Building",
+    "special": true,
+    "hpBottom": true,
+    "isStartBuilding": true,
+    "icon": 115,
+    "Damage": {
+      "min": 40,
+      "max": 50,
+      "range": 3,
+      "ammo": "Arrow",
+      "speed": 60
+    },
+    "Health": 500,
+    "Armor": "Heavy",
+    "Speed": "None",
+    "Desc": "Защитная башенка :3",
+    "Image": {
+      "bmp": "tower",
+      "img": 0,
+      "imgx": -2
+    },
+    "Rect": {
+      "w": 30,
+      "h": 56
+    },
+    "CorpseImage": {
+      "bmp": "tower",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Building"
+      },
+      {
+        "name": "Refresh"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Banner",
+    "race": "Race_Building",
+    "special": true,
+    "hpBottom": true,
+    "isStartBuilding": true,
+    "icon": 8,
+    "Health": 250,
+    "Speed": "None",
+    "Desc": "Вперед! :3",
+    "Image": {
+      "bmp": "start_buildings",
+      "img": 1,
+      "imgx": -10
+    },
+    "Rect": {
+      "w": 30,
+      "h": 46
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Building"
+      },
+      {
+        "name": "Rush",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Treasure",
+    "race": "Race_Building",
+    "special": true,
+    "hpBottom": true,
+    "isStartBuilding": true,
+    "icon": 116,
+    "Health": 250,
+    "Speed": "None",
+    "Desc": "Открой меня :3",
+    "Image": {
+      "bmp": "start_buildings",
+      "img": 0,
+      "imgx": -10
+    },
+    "Rect": {
+      "w": 30,
+      "h": 46
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Building"
+      },
+      {
+        "name": "Money_treasure",
+        "value": 200
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Healing_tent",
+    "race": "Race_Building",
+    "special": true,
+    "hpBottom": true,
+    "isStartBuilding": true,
+    "icon": 62,
+    "Health": 400,
+    "Armor": "Light",
+    "Speed": "None",
+    "Desc": "Помощь прибыла :3",
+    "Image": {
+      "bmp": "healing_tent",
+      "img": 0,
+      "imgx": -10
+    },
+    "Rect": {
+      "w": 30,
+      "h": 56
+    },
+    "CorpseImage": {
+      "bmp": "healing_tent",
+      "img": 1
+    },
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Building"
+      },
+      {
+        "name": "Refresh"
+      },
+      {
+        "name": "Heal_first"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Castle",
+    "race": "Race_Building",
+    "special": true,
+    "hpBottom": true,
+    "icon": 18,
+    "Health": 5000,
+    "Armor": "Heavy",
+    "Speed": "None",
+    "Desc": "Отсюда отправляются существа, потеря базы приводит к поражению",
+    "Abilites": [
+      {
+        "name": "Unique"
+      },
+      {
+        "name": "Building"
+      },
+      {
+        "name": "Huge"
+      }
+    ]
+  }
+]

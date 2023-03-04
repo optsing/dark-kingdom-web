@@ -1,0 +1,2882 @@
+﻿[
+  {
+    "name": "abdusciius",
+    "Width": 71,
+    "Height": 70,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "alchemist",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "alt",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "ambassador",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "ammos",
+    "Width": 10,
+    "Height": 10,
+    "MirroredCopy": true
+  },
+  {
+    "name": "arch",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "archer",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "archhealer",
+    "Width": 30,
+    "Height": 40,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "back0",
+    "Width": 45,
+    "Height": 70,
+    "MirroredCopy": true
+  },
+  {
+    "name": "assassin_slasher",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "back1",
+    "Width": 45,
+    "Height": 70,
+    "MirroredCopy": true
+  },
+  {
+    "name": "back2",
+    "Width": 60,
+    "Height": 70,
+    "MirroredCopy": true
+  },
+  {
+    "name": "banner",
+    "Width": 50,
+    "Height": 46,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "banshee",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "battle_imp",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "berserker",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "big_icons",
+    "Width": 64,
+    "Height": 64,
+    "MirroredCopy": false
+  },
+  {
+    "name": "birder",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "blind_slayer",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "bomber",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "bone_golem",
+    "Width": 37,
+    "Height": 39,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "bonus_icons",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": false
+  },
+  {
+    "name": "bs2_golem",
+    "Width": 46,
+    "Height": 40,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "bush0",
+    "Width": 20,
+    "Height": 17,
+    "MirroredCopy": false
+  },
+  {
+    "name": "castle",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "centaur_archer",
+    "Width": 48,
+    "Height": 46,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "centaur_marauder",
+    "Width": 48,
+    "Height": 46,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "centaur_leader",
+    "Width": 46,
+    "Height": 46,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "crazy_imp",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "creaper",
+    "Width": 52,
+    "Height": 39,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "crossbowman",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "crystal_dragon",
+    "Width": 72,
+    "Height": 42,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "dark_archer",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "butcher",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "dark_druid",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "dark_slayer",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "dark_wolf",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "deathland",
+    "Width": 100,
+    "Height": 50,
+    "MirroredCopy": false
+  },
+  {
+    "name": "deathless",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "desert",
+    "Width": 100,
+    "Height": 50,
+    "MirroredCopy": false
+  },
+  {
+    "name": "devourer",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "dragolich",
+    "Width": 64,
+    "Height": 42,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "dragon",
+    "Width": 71,
+    "Height": 46,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "dragonlord",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "dwarf",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "dwarfguard",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "dwarfhealer",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "dwarfking",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "dwarfmachine",
+    "Width": 75,
+    "Height": 36,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "dwarfshooter",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "dwarftactic",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "dwarfsmith",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "dwarfzealot",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "effects",
+    "Width": 32,
+    "Height": 32,
+    "MirroredCopy": false
+  },
+  {
+    "name": "explode",
+    "Width": 50,
+    "Height": 50,
+    "MirroredCopy": false
+  },
+  {
+    "name": "faceless",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "fallen",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "flizard",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "fly_saw",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "forest",
+    "Width": 100,
+    "Height": 50,
+    "MirroredCopy": false
+  },
+  {
+    "name": "furious",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "gargoyle",
+    "Width": 60,
+    "Height": 46,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "ghost",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "giant_spider",
+    "Width": 60,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "gn1_golem",
+    "Width": 88,
+    "Height": 70,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "goblin_kamikaze",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "goblin_leader",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "goblin_shooter",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "gobo",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "elven_scout",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "grave_priest",
+    "Width": 38,
+    "Height": 39,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "griffin",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "ground",
+    "Width": 100,
+    "Height": 50,
+    "MirroredCopy": false
+  },
+  {
+    "name": "ground_flizard",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "guardian_of_dawn",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "healing_tent",
+    "Width": 50,
+    "Height": 56,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "herald",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "higher_vampire",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "hornet",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "hqs1",
+    "Width": 30,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs2",
+    "Width": 70,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_daemonic1",
+    "Width": 30,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_daemonic2",
+    "Width": 70,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_dvarven1",
+    "Width": 30,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_dvarven2",
+    "Width": 70,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_elvish1",
+    "Width": 30,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_elvish2",
+    "Width": 70,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_human1",
+    "Width": 30,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_human2",
+    "Width": 70,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_orcish1",
+    "Width": 30,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_orcish2",
+    "Width": 70,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_steampunk1",
+    "Width": 30,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_steampunk2",
+    "Width": 70,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_swampclan1",
+    "Width": 30,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_swampclan2",
+    "Width": 70,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_undead1",
+    "Width": 30,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "hqs_undead2",
+    "Width": 70,
+    "Height": 60,
+    "MirroredCopy": false
+  },
+  {
+    "name": "ihor",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "ihor_golem",
+    "Width": 42,
+    "Height": 39,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "ihor_master",
+    "Width": 42,
+    "Height": 39,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "infernoland",
+    "Width": 100,
+    "Height": 50,
+    "MirroredCopy": false
+  },
+  {
+    "name": "inquisitor",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "irmah",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "jek",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "jim",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "joker",
+    "Width": 39,
+    "Height": 39,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "lich",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "lord_of_ghosts",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "lord_of_swarm",
+    "Width": 56,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "ls3_golem",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "marauder",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "mechanics",
+    "Width": 100,
+    "Height": 50,
+    "MirroredCopy": false
+  },
+  {
+    "name": "medium_icons",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": false
+  },
+  {
+    "name": "militia",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "militia1",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "militia2",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "neutral_corsair",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "neutral_mage",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "neutral_warrior",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "nineframe",
+    "Width": 12,
+    "Height": 12,
+    "MirroredCopy": false
+  },
+  {
+    "name": "nineframe2",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": false
+  },
+  {
+    "name": "nineslicebutton",
+    "Width": 10,
+    "Height": 10,
+    "MirroredCopy": false
+  },
+  {
+    "name": "pegasus_rider",
+    "Width": 37,
+    "Height": 39,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "physician",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "pilferer",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "pitlord",
+    "Width": 70,
+    "Height": 70,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "plague_stinger",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "purchase_icons",
+    "Width": 50,
+    "Height": 50,
+    "MirroredCopy": false
+  },
+  {
+    "name": "race_icons",
+    "Width": 25,
+    "Height": 50,
+    "MirroredCopy": false
+  },
+  {
+    "name": "rainysunday",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "rifleman",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "rocketman",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "sage",
+    "Width": 38,
+    "Height": 39,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "scouteye",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "shaman",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "skeleton_archer",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "skeleton_knight",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "skeleton_squad",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "skeleton_warrior",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "slave",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "slicy",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "small_dragon",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "small_icons",
+    "Width": 20,
+    "Height": 16,
+    "MirroredCopy": false
+  },
+  {
+    "name": "sniper",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "soldier",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "souleateranim",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "spells_icons",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": false
+  },
+  {
+    "name": "spirit",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "spirit_crowd",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "student_mage",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "sukkubus",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "swamp",
+    "Width": 100,
+    "Height": 50,
+    "MirroredCopy": false
+  },
+  {
+    "name": "swarm_leader",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "terminator",
+    "Width": 48,
+    "Height": 40,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "tier_2",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "tier_3",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "time_lord",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "tower",
+    "Width": 34,
+    "Height": 56,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "treasure",
+    "Width": 50,
+    "Height": 46,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "troll",
+    "Width": 72,
+    "Height": 70,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "twilight",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "unnamed",
+    "Width": 37,
+    "Height": 55,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "valter_merington",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "walking_corpse",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "warchief",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "warmachine",
+    "Width": 64,
+    "Height": 70,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "wasp",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "werewolf",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "winger",
+    "Width": 50,
+    "Height": 40,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "womb",
+    "Width": 51,
+    "Height": 56,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "world",
+    "Width": 120,
+    "Height": 120,
+    "MirroredCopy": false
+  },
+  {
+    "name": "wraith",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "wrecker",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "wurm",
+    "Width": 46,
+    "Height": 32,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "wyvern",
+    "Width": 58,
+    "Height": 39,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "name": "wyvern_hunter",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "zealot",
+    "Width": 30,
+    "Height": 30,
+    "MirroredCopy": true,
+    "Animations": {
+      "Idle": {
+        "start": 0,
+        "end": 0
+      },
+      "Corpse": {
+        "start": 1,
+        "end": 1
+      },
+      "Attack": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "name": "unit_icons",
+    "Width": 30,
+    "Height": 30
+  },
+  {
+    "name": "empty",
+    "Width": 1,
+    "Height": 1
+  }
+]
