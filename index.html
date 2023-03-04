@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>DarkKingdomWeb</title>
-    <base href="./" />
+    <base href="/dark-kingdom-web/" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="DarkKingdomWeb.styles.css" rel="stylesheet" />
@@ -40,10 +40,10 @@
                         const originalResponseArray = new Int8Array(originalResponseBuffer);
                         const decompressedResponseArray = BrotliDecode(originalResponseArray);
                         const contentType = type === 'dotnetwasm'
-                                          ? 'application/wasm' 
+                                          ? 'application/wasm'
                                           : 'application/octet-stream';
                         return new Response(decompressedResponseArray,
-                                            { headers: { 'content-type': contentType } 
+                                            { headers: { 'content-type': contentType }
                                    });
                     })();
                 }
@@ -77,7 +77,7 @@
             canvas.height = holder.clientHeight;
             // disable context menu on right click
             canvas.addEventListener("contextmenu", e => e.preventDefault());
-            
+
             // begin game loop
             window.requestAnimationFrame(tickJS);
         };
